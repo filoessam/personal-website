@@ -13,7 +13,7 @@ export default function Skills() {
   const { ref, visible } = useReveal()
 
   return (
-    <section id="skills" style={{ padding: '120px 0', background: 'var(--bg-subtle)' }}>
+    <section id="skills" style={{ padding: '120px 0', background: 'var(--bg)' }}>
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px' }}>
         <div ref={ref} className={`reveal${visible ? ' visible' : ''}`} style={{ textAlign: 'center', marginBottom: 64 }}>
           <div className="section-label" style={{ marginBottom: 16 }}>Skills & Strengths</div>

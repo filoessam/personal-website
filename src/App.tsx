@@ -41,7 +41,7 @@ export default function App() {
         <TechStack />
         {/* <Projects /> */}
         {/* <CaseStudy /> */}
-        {/* <Experience /> */}
+        <Experience />
         <Skills />
         <SkillBars />
         <Testimonials />

@@ -40,7 +40,7 @@ export default function Process() {
   const { ref, visible } = useReveal()
 
   return (
-    <section id="process" style={{ padding: '120px 0', background: 'var(--bg)' }}>
+    <section id="process" style={{ padding: '120px 0', background: 'var(--bg-subtle)'  }}>
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px' }}>
         <div ref={ref} className={`reveal${visible ? ' visible' : ''}`} style={{ textAlign: 'center', marginBottom: 64 }}>
           <div className="section-label" style={{ marginBottom: 16 }}>How I Work</div>

@@ -57,7 +57,7 @@ function SkillBar({ name, level, color }: { name: string; level: number; color: 
 
 export default function SkillBars() {
     return (
-        <section id="skill_bars" style={{ padding: '120px 0', background: 'var(--bg)' }}>
+        <section id="skill_bars" style={{ padding: '120px 0', background: 'var(--bg-subtle)' }}>
             <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px' }}>
                 <div style={{ textAlign: 'center', marginBottom: 40 }}>
                     <div className="section-label" style={{ marginBottom: 16 }}>Proficiency</div>
